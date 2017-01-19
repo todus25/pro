@@ -1,0 +1,52 @@
+
+<!DOOTYPE html>
+<html>
+<head>
+<title>3d practise</title>
+<link rel="stylesheet" href="style.css" type="text/css"/> 
+<script src="jquery.min.js"></script>
+</head>
+<body style="overflow: hidden;"  onload="myfunction()" >
+
+
+
+<div id="slider">
+
+  <img src="https://aos.iacpublishinglabs.com/question/aq/1400px-788px/pandas-live_64dff22c2fe56e9.jpg?domain=cx.aos.ask.com" >
+                                         <img   src="https://media-cdn.tripadvisor.com/media/photo-s/01/b9/2d/7c/taj-lake-palace-udaipur.jpg" >
+                                         <img   src="http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/everest60/bp19.jpg">
+
+
+
+
+</div>
+
+
+                                <script>
+								
+								
+						
+      function myfunction(){ $("img:nth-child(3)").addClass("hhh");
+       setTimeout(function(){ $("img:nth-child(2)").addClass("hhh");}, 3000);
+	   setTimeout(function(){$("img:nth-child(1)").addClass("hhh"); }, 6000); 
+	   setTimeout(function(){ $("img:nth-child(1)").addClass("hhhh");}, 9000);
+	 setTimeout(function(){ $("img:nth-child(2)").addClass("hhhh");}, 12000);
+	   setTimeout(function(){ $("img:nth-child(3)").addClass("hhhh");}, 15000);
+					setTimeout(function(){ $("img:nth-child(3)").removeClass("hhh");}, 18000);
+					setTimeout(function(){ $("img:nth-child(2)").removeClass("hhh");}, 18000);
+					setTimeout(function(){ $("img:nth-child(1)").removeClass("hhh");}, 18000);
+					setTimeout(function(){ $("img:nth-child(3)").removeClass("hhhh");}, 18000);
+					setTimeout(function(){ $("img:nth-child(2)").removeClass("hhhh");}, 18000);
+					setTimeout(function(){ $("img:nth-child(1)").removeClass("hhhh");}, 18000);
+	 
+	 
+
+
+	 
+setTimeout(myfunction,18000); 
+}
+		 				         
+                                           </script>
+
+</body>
+</html>

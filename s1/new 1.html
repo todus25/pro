@@ -1,0 +1,53 @@
+
+<!DOOTYPE html>
+<html>
+<head>
+<title>3d practise</title>
+<link rel="stylesheet" href="style.css" type="text/css"/> 
+<script src="jquery.min.js"></script>
+</head>
+<body style="overflow: hidden;"  onload="myfunction()" >
+
+
+
+<div id="slider">
+  <img src="https://aos.iacpublishinglabs.com/question/aq/1400px-788px/pandas-live_64dff22c2fe56e9.jpg?domain=cx.aos.ask.com" >
+                                         <img   src="https://media-cdn.tripadvisor.com/media/photo-s/01/b9/2d/7c/taj-lake-palace-udaipur.jpg" >
+                                         <img   src="http://inapcache.boston.com/universal/site_graphics/blogs/bigpicture/everest60/bp19.jpg">
+
+
+</div>
+
+
+                                <script>
+								
+								
+						
+      function myfunction(){ $("img:nth-child(3)").addClass("hhh");
+       
+	   
+	   $("img:nth-child(3)").css("display","inherit");
+					
+setTimeout(function(){  $(
+"img:nth-child(3)").css("display", "none");
+                     
+$("img:nth-child(2)").addClass("hhh");
+ 	$("img:nth-child(2)").css("display","inherit");  
+     }, 3000);
+	 
+	setTimeout(function(){   $("img:nth-child(2)").css("display", "none");
+                       
+
+ $("img:nth-child(1)").addClass("hhh");	
+ $("img:nth-child(1)").css("display","inherit");
+ 
+     }, 6000); 
+	 setTimeout(function(){$("img:nth-child(1)").css("display", "none");  }, 9000);
+	 
+	setTimeout(myfunction,9000); 
+ }
+		 				         
+                                           </script>
+
+</body>
+</html>

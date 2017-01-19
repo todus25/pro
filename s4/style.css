@@ -1,0 +1,39 @@
+{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	
+}
+ @keyframes slidy {
+0% { transform: translate(0px); }
+11% { transform: translate(0px);}
+22% { transform: translate(-1357px); }
+33% { transform: translate(-1357px); }
+44% { transform: translate(-2714px); }
+55% { transform: translate(-2714px); }
+66% { transform: translate(-1357px); }
+77% { transform: translate(-1357px); }
+88% { transform: translate(0px); }
+100% { transform: translate(0px); }
+}/*simple math*/
+#slider{height:13cm;
+         width:600%;/*it doesnt matter because we hide overflow written on body tag*/
+		 position:relative;} 
+		 
+ #sl{position:absolute;
+			 height:13cm;
+			 float:left;
+         width:4500px;animation: 30s slidy infinite;/*three image so i assumed 4500px ,more than thier summing pxs*/
+  animation-timing-function:linear;
+	animation-fill-mode:forwards;
+	}
+
+ #sl img { width: 1357px;/*screen resulution..u can change it with ur preference*/
+        height:13cm;
+		margin:0px;
+		padding:0px;}
+					  
+					  
+					  
+.
+	
